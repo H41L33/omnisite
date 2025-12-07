@@ -1,9 +1,10 @@
 ---
 title: Welcome
-description: "Welcome to my website."
+description: "
+Hailey Welsh - Software developer, Linux enthusiast, and creator of Slate SSG. Explore my blog on web development, ThinkPad builds, Gentoo Linux, and multi-protocol web accessibility. Discover projects, showcase work, and contact details.
+"
 type: page
 template: page.html
-categories: [blog]
 ---
 
 

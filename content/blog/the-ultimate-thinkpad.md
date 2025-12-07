@@ -1,7 +1,7 @@
 ---
 title: The Ultimate Thinkpad
 date: 2025-12-05
-description: "Building the ultimate Gentoo music ThinkPad from a T540P"
+description: "Building the ultimate ThinkPad T540P with a PGA-adapted i7-4980HQ CPU, upgraded cooling, and Gentoo Linux. A detailed guide covering hardware mods, kernel customization, and WindowMaker setup."
 type: entry
 template: page.html
 author: Hailey Welsh

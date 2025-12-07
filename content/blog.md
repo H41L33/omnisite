@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: "A collection of my posts and updates."
+description: "Hailey Welsh's blog covering software development, Linux, hardware builds, web3, and more. Posts and updates on whatever I'm working on or thinking about. All content available as web pages, markdown, and plaintext downloads."
 type: collection
 template: root.html
 ---
