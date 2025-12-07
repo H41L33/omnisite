@@ -8,23 +8,23 @@
 
     <title>Hailey Welsh // {{ title }}</title>
 
-    <link rel="manifest" href="{{ relative_root }}/static/assets/hailey_favicon_io/site.webmanifest">
-    <link rel="icon" href="{{ relative_root }}/static/assets/hailey_favicon_io/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="{{ relative_root }}/static/assets/hailey_favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="{{ site_root }}/static/assets/hailey_favicon_io/site.webmanifest">
+    <link rel="icon" href="{{ site_root }}/static/assets/hailey_favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="{{ site_root }}/static/assets/hailey_favicon_io/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="{{ relative_root }}/static/style.css">
+    <link rel="stylesheet" href="{{ site_root }}/static/style.css">
 </head>
 
 <body>
     <div class="page">
         <header class="header">
             <div class="header-container">
-                <a href="{{ relative_root }}/index.html" style="text-decoration: none;">
+                <a href="{{ site_root }}/index.html" style="text-decoration: none;">
                     <h1 class="header-title fancy-animate">{{ title }}</h1>
                 </a>
                 <div class="pfp-container fancy-animate">
-                    <a href="{{ relative_root }}/index.html">
-                        <img src="{{ relative_root }}/static/assets/pfp.jpg" alt="Hailey Welsh" class="profile-pic">
+                    <a href="{{ site_root }}/index.html">
+                        <img src="{{ site_root }}/static/assets/pfp.jpg" alt="Hailey Welsh" class="profile-pic">
                     </a>
                 </div>
             </div>
@@ -50,9 +50,9 @@
             </div>
             <div class="footer-links">
                 <a href="https://github.com/H41L33"><img class="fancy-animate"
-                        src="{{ relative_root }}/static/assets/icons8-github.svg" alt="My GitHub Profile"></a>
+                        src="{{ site_root }}/static/assets/icons8-github.svg" alt="My GitHub Profile"></a>
                 <a href="https://www.linkedin.com/in/hw220907/"><img class="fancy-animate"
-                        src="{{ relative_root }}/static/assets/icons8-linkedin.svg" alt="My LinkedIn Profile"></a>
+                        src="{{ site_root }}/static/assets/icons8-linkedin.svg" alt="My LinkedIn Profile"></a>
             </div>
             <div class="footer-generation-information">
                 Page built with slate {{ version }} on {{ creation_date }} at {{ creation_time }}, last updated at {{
@@ -61,7 +61,7 @@
         </footer>
     </div>
 
-    <script src="{{ relative_root }}/static/index.js"></script>
+    <script src="{{ site_root }}/static/index.js"></script>
 </body>
 
 </html>
