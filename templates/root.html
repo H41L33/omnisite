@@ -12,7 +12,18 @@
     <link rel="icon" href="{{ site_root }}/static/favicon_io/favicon-32x32.png">
     <link rel="apple-touch-icon" href="{{ site_root }}/static/favicon_io/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="{{ site_root }}/static/style.css">
+    <!-- Load local fonts (no external requests) -->
+    <link rel="stylesheet" href="{{ site_root }}/static/fonts.css">
+
+    <!-- Inline critical CSS for fast initial render -->
+    <link rel="stylesheet" href="{{ site_root }}/static/style-critical.css">
+
+    <!-- Defer non-critical styles (animations, callouts, advanced features) -->
+    <link rel="preload" href="{{ site_root }}/static/style-deferred.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="{{ site_root }}/static/style-deferred.css">
+    </noscript>
 </head>
 
 <body>
