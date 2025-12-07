@@ -8,8 +8,6 @@ author: Hailey Welsh
 tags: [thinkpad, linux, gentoo, build]
 ---
 
-[!TAG_ENTRIES]
-
 # The Ultimate ThinkPad
 
 ## Introduction
