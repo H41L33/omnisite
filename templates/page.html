@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ description }}">
+
+    <title>Hailey Welsh // {{ title }}</title>
+
+    <link rel="manifest" href="/static/assets/hailey_favicon_io/site.webmanifest">
+    <link rel="icon" href="/static/assets/hailey_favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/static/assets/hailey_favicon_io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header-container">
+                <a href="" style="text-decoration: none;">
+                    <h1 class="header-title fancy-animate">{{ title }}</h1>
+                </a>
+                <div class="pfp-container fancy-animate">
+                    <a href="/html/index.html">
+                        <img src="/static/assets/new_hailey_face_small.jpg" alt="Hailey Welsh" class="profile-pic">
+                    </a>
+                </div>
+            </div>
+
+            {{ nav_header }}
+        </header>
+
+        <main class="content">
+            <!-- v0.2.6: Breadcrumbs -->
+            <div class="breadcrumbs">{{ breadcrumbs }}</div>
+
+            <!-- v0.2.6: Table of Contents -->
+            <h1 class="toc-title">Table of Contents</h1>
+            <div class="toc-container">{{ toc }}</div>
+
+            {{ content }}
+        </main>
+
+        <footer class="footer">
+            <div class="footer-text">
+                © 2025 Hailey Welsh • <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Made with
+                ❤️
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/H41L33"><img class="fancy-animate" src="/static/assets/icons8-github.svg"
+                        alt="My GitHub Profile"></a>
+                <a href="https://www.linkedin.com/in/hw220907/"><img class="fancy-animate"
+                        src="/static/assets/icons8-linkedin.svg" alt="My LinkedIn Profile"></a>
+            </div>
+            <div class="footer-generation-information">
+                Page built with slate {{ version }} on {{ creation_date }} at {{ creation_time }}, last updated at {{
+                modify_date }} at {{ modify_time }}.
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/index.js"></script>
+</body>
+
+</html>

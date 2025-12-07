@@ -1,0 +1,8 @@
+html/
+gopher/
+gemini/
+__pycache__/
+*.pyc
+.DS_Store
+slate.json
+slate.toon
