@@ -94,6 +94,7 @@ body {
     margin: 0 auto 1rem;
     max-width: min(calc(100vw - 2rem), 64rem);
     position: relative;
+    overflow-x: hidden;
 }
 
 h1,
@@ -125,6 +126,8 @@ p {
     flex-direction: column;
     min-height: calc(100vh - 2rem);
     padding: 0 clamp(1.5rem, 3vw, 3rem);
+    position: relative;
+    overflow: clip;
 }
 
 /*================================================================================================*/
@@ -136,12 +139,13 @@ p {
     box-shadow: 0 32px 32px 0 var(--blend-shadow);
     cursor: default;
     margin: 0;
+    margin-top: -1px;
     padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: calc(1rem + 1px);
     position: sticky;
-    top: 0;
+    top: -1px;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .header-container {

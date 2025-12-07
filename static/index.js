@@ -8,7 +8,7 @@
     function initAnimatedElements() {
         const animatedElements = document.querySelectorAll(`
             .fancy-animate, .header-title, .pfp-container, .header nav a, .content-nav_header,
-            .footer-links img, .content a, .footer-text a, .blog_post
+            .footer-links img, .content a, .footer-text a, .collection_entry
         `);
 
         animatedElements.forEach(el => {
