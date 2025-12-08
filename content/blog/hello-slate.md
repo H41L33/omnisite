@@ -4,7 +4,7 @@ date: 2025-12-05
 description: "Introducing Slate v0.2.7 - my custom static site generator evolved from a simple transpiler to a full SSG with metadata tracking, relative links, and IPFS support."
 type: entry
 template: page.html
-author: Hailey Welsh
+author: Hayden Ellis Clarke
 tags: [slate, projects, omnisite]
 ---
 

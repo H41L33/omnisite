@@ -1,7 +1,7 @@
 ---
 title: Welcome
 description: "
-Hailey Welsh - Software developer, Linux enthusiast, and creator of Slate SSG. Explore my blog on web development, ThinkPad builds, Gentoo Linux, and multi-protocol web accessibility. Discover projects, showcase work, and contact details.
+Hayden Ellis Clarke - Software developer, Linux enthusiast, and creator of Slate SSG. Explore my blog on web development, ThinkPad builds, Gentoo Linux, and multi-protocol web accessibility. Discover projects, showcase work, and contact details.
 "
 type: page
 template: page.html
@@ -12,7 +12,7 @@ template: page.html
 
 ## Hello!
 
-Welcome to my website, here you can find (almost) everything there is to know about me, Hailey Welsh.
+Welcome to my website, here you can find (almost) everything there is to know about me, Hayden Ellis Clarke.
 
 On this website I have:
 
