@@ -4,7 +4,7 @@ date: 2025-12-05
 description: "Building the ultimate ThinkPad T540P with a PGA-adapted i7-4980HQ CPU, upgraded cooling, and Gentoo Linux. A detailed guide covering hardware mods, kernel customization, and WindowMaker setup."
 type: entry
 template: page.html
-author: Hayden Ellis Clarke
+author: Hayden
 tags: [thinkpad, linux, gentoo, build]
 ---
 

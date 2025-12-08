@@ -12,7 +12,7 @@ template: page.html
 
 ## Hello!
 
-Welcome to my website, here you can find (almost) everything there is to know about me, Hayden Ellis Clarke.
+Welcome to my website, here you can find (almost) everything there is to know about me, Hayden.
 
 On this website I have:
 
